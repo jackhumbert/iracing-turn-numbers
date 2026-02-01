@@ -1,0 +1,38 @@
+name: Create TurnNumbers.zip Release
+
+on:
+  push:
+    branches:
+      - main # or your primary branch name
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # required to create a release and upload assets
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # needed to access commit history for potential versioning logic
+
+      - name: Create TurnNumbers.zip
+        run: |
+          zip -r TurnNumbers.zip *.json
+
+      - name: Create Release and Upload Artifact
+        uses: softprops/action-gh-release@v1
+        with:
+          # Use the short commit hash as a unique tag and name
+          tag_name: commit-${{ github.sha }}
+          name: Release Commit ${{ github.sha }}
+          body: |
+            Automated release for commit:
+            ${{ github.event.head_commit.message }}
+          draft: false
+          prerelease: false
+          files: |
+            TurnNumbers.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # uses the default token with 'contents: write' permission
