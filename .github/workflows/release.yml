@@ -19,7 +19,7 @@ jobs:
 
       - name: Create TurnNumbers.zip
         run: |
-          zip -r TurnNumbers.zip *.json
+          zip -r TurnNumbers.zip *.json readme.md
 
       - name: Create Release and Upload Artifact
         uses: softprops/action-gh-release@v1
