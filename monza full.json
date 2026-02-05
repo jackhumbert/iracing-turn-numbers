@@ -1,0 +1,59 @@
+{
+  "turns": [
+    {
+      "name":  "Turn 1",
+      "start": 772,
+      "end": 953
+    },
+    {
+      "name": "Turn 2",
+      "start": 953,
+      "end": 1024
+    },
+    {
+      "name": "Turn 3",
+      "start": 1217,
+      "end": 1815
+    },
+    {
+      "name": "Turn 4",
+      "start": 2000,
+      "end": 2166
+    },
+    {
+      "name": "Turn 5",
+      "start": 2166,
+      "end": 2267
+    },
+    {
+      "name": "Turn 6",
+      "start": 2445,
+      "end": 2706
+    },
+    {
+      "name": "Turn 7",
+      "start": 2782,
+      "end": 2986
+    },
+    {
+      "name": "Turn 8",
+      "start": 3808,
+      "end": 3992
+    },
+    {
+      "name": "Turn 9",
+      "start": 3992,
+      "end": 4106
+    },
+    {
+      "name": "Turn 10",
+      "start": 4106,
+      "end": 4271
+    },
+    {
+      "name": "Turn 11",
+      "start": 5010,
+      "end": 5665
+    }
+  ]
+}
