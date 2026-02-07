@@ -1,0 +1,27 @@
+{ "turns": [
+    {
+        "name": "Turn 1,2",
+        "start": 400,
+        "end": 1000
+    },
+    {
+        "name": "Turn 3",
+        "start": 1000,
+        "end": 1472
+    },
+    {
+        "name": "Turn 4,5,6,7",
+        "start": 1472,
+        "end": 2025
+    },
+    {
+        "name": "Turn 8",
+        "start": 2025,
+        "end": 2125
+    },
+    {
+        "name": "Turn 9",
+        "start": 2125,
+        "end": 400
+    }
+] }

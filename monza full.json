@@ -1,6 +1,43 @@
 {
   "turns": [
     {
+      "name":  "Turn 1, 2",
+      "start": 772,
+      "end": 1217
+    },
+    {
+      "name": "Turn 3",
+      "start": 1217,
+      "end": 2000
+    },
+    {
+      "name": "Turn 4, 5",
+      "start": 2000,
+      "end": 2445
+    },
+    {
+      "name": "Turn 6",
+      "start": 2445,
+      "end": 2782
+    },
+    {
+      "name": "Turn 7",
+      "start": 2782,
+      "end": 3808
+    },
+    {
+      "name": "Turn 8, 9, 10",
+      "start": 3808,
+      "end": 5010
+    },
+    {
+      "name": "Turn 11",
+      "start": 5010,
+      "end": 772
+    }
+  ],
+  "old_turns": [
+    {
       "name":  "Turn 1",
       "start": 772,
       "end": 953
