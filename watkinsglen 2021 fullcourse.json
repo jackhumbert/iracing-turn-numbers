@@ -3,62 +3,52 @@
     {
       "name":  "Turn 1",
       "start": 221,
-      "end": 486
+      "end": 613
     },
     {
-      "name":  "Turn 2",
+      "name":  "Turn 2,3,4",
       "start": 613,
-      "end": 866
-    },
-    {
-      "name":  "Turn 3",
-      "start": 866,
-      "end": 1118
-    },
-    {
-      "name":  "Turn 4",
-      "start": 1118,
-      "end": 1444
+      "end": 1829
     },
     {
       "name":  "Bus Stop",
-      "start": 1906,
+      "start": 1829,
       "end": 2168
     },
     {
       "name":  "Turn 5",
       "start": 2168,
-      "end": 2638
+      "end": 2718
     },
     {
       "name":  "Turn 6",
       "start": 2718,
-      "end": 3061
+      "end": 3241
     },
     {
       "name":  "Turn 7",
       "start": 3241,
-      "end": 3538
+      "end": 3991
     },
     {
       "name":  "Turn 8",
       "start": 3991,
-      "end": 4167
+      "end": 4316
     },
     {
       "name":  "Turn 9",
       "start": 4316,
-      "end": 4536
+      "end": 4744
     },
     {
       "name":  "Turn 10",
       "start": 4744,
-      "end": 4925
+      "end": 5049
     },
     {
       "name":  "Turn 11",
       "start": 5049,
-      "end": 5264
-    },
+      "end": 221
+    }
   ]
 }
