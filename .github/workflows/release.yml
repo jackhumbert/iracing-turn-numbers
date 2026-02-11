@@ -1,4 +1,4 @@
-name: Create TurnNumbers.zip Release
+name: Create iracing-turn-numbers.zip Release
 
 on:
   push:
@@ -17,9 +17,9 @@ jobs:
         with:
           fetch-depth: 0 # needed to access commit history for potential versioning logic
 
-      - name: Create TurnNumbers.zip
+      - name: Create iracing-turn-numbers.zip
         run: |
-          zip -r TurnNumbers.zip *.json readme.md
+          zip -r iracing-turn-numbers.zip *.json readme.md
 
       - name: Create Release and Upload Artifact
         uses: softprops/action-gh-release@v1
@@ -33,6 +33,6 @@ jobs:
           draft: false
           prerelease: false
           files: |
-            TurnNumbers.zip
+            iracing-turn-numbers.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # uses the default token with 'contents: write' permission
