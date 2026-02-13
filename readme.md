@@ -1,5 +1,7 @@
 # iRacing Turn Numbers
 
+## No longer needed - using https://github.com/Lovely-Sim-Racing/lovely-track-data/ instead
+
 To be used with [iRon](https://github.com/jackhumbert/iron) or [SimHub](https://github.com/jackhumbert/simhub-jackdash).
 
 JSON files should be in the root directory, and filenames should follow the [iRacing Track Paths](https://support.iracing.com/support/solutions/articles/31000176962-filepath-for-active-iracing-tracks) with the inter-directory `\` replaced with a space (` `). This matches the [WeekendInfo.TrackName](https://sajax.github.io/irsdkdocs/yaml/weekendinfo.html#trackname) variable from the iRacing SDK.
